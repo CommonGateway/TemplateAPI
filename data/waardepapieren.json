@@ -1,0 +1,20 @@
+{
+  "collection": "https://raw.githubusercontent.com/CommonGateway/TemplateAPI/main/OAS.yaml",
+  "schemas": {
+    "TemplateGroup": [
+      {
+        "properties": {
+          "name": "Waardepapieren certificaten"
+          "templates": [
+            {
+              "name": "Akte van geboorte",
+              "description": "akte_van_geboorte",
+              "content": "<div style=\"float: right\">{{ \"Persoon: \"~person.naam }}</div>",
+              "templateEngine": "twig"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
