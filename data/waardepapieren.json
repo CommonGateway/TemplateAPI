@@ -4,7 +4,7 @@
     "TemplateGroup": [
       {
         "properties": {
-          "name": "Waardepapieren certificaten"
+          "name": "Waardepapieren certificaten",
           "templates": [
             {
               "name": "Akte van geboorte",
