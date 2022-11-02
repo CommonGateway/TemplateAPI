@@ -9,7 +9,13 @@
             {
               "name": "Akte van geboorte",
               "description": "akte_van_geboorte",
-              "content": "<div style=\"float: right\">{{ \"Persoon: \"~person.naam }}</div>",
+              "content": "<div style=\"float: right\">{{ \"Persoon: \"~person.burgerservicenummer }}</div>",
+              "templateEngine": "twig"
+            },
+            {
+              "name": "Uitreksel vais registratie personen",
+              "description": "uittreksel_basis_registratie_personen",
+              "content": "<div style=\"float: right\">{{ \"Persoon: \"~person.burgerservicenummer }}</div>",
               "templateEngine": "twig"
             }
           ]
