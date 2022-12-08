@@ -20,6 +20,19 @@
             }
           ]
         }
+      },
+      {
+        "properties": {
+          "name": "Waardepapieren dynamisch certificaat",
+          "templates": [
+            {
+              "name": "Dynamisch certicaat",
+              "description": "dynamisch_certificaat",
+              "content": "<div><table>{% for key, value in data %}<tr><th>{{ key }}</th><td>{{ value }}</td></tr>{% endfor %}</div>",
+              "templateEngine": "twig"
+            }
+          ]
+        }
       }
     ]
   }
